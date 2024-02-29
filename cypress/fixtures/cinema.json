@@ -1,0 +1,22 @@
+{
+    "emailValid": "qamid@qamid.ru",
+    "passwordValid": "qamid",
+    "emailInvalid": "123@123.ru",
+    "passwordInvalid": "123",
+
+    "errorMessage": "Ошибка авторизации!",
+    "adminTitlePage": "Администраторррская",
+    "bookButton": "Забронировать",
+    "bookResult": "Вы выбрали билеты:",
+  
+  
+    "selectors": {
+      "loginField": "div.login__wrapper > form > :nth-child(1) > input",
+      "passwordField": "div.login__wrapper > form > :nth-child(2) > input",
+      "loginButton": ".login__button",
+      "days": ".page-nav__day",
+      "titlePageCinema": ".page-header__title"
+    }
+           
+}
+
