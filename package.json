@@ -13,7 +13,7 @@
     "test:parallel:chrome": "run-p -c test:auth:chrome test:booking:chrome",
     "test:parallel:firefox": "run-p -c test:auth:firefox test:booking:firefox",
     "test:parallel:edge": "run-p -c test:auth:edge test:booking:edge",
-    "test:parallel:all":"run-p -c test:parallel:chrome test:parallel:firefox test:parallel:edge",
+    "test:parallel:all": "run-p -c test:parallel:chrome test:parallel:firefox test:parallel:edge",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
